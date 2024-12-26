@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024年度总结导航</title>
+    <style>
+        :root {
+            --background-color: #f5f5f5;
+            --text-color: #333;
+            --card-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin: 0;
+        }
+
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .app-card {
+            text-decoration: none;
+            color: white;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .app-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            min-height: 250px;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .app-name {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .app-description {
+            margin: 10px 0;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .view-button {
+            margin-top: auto;
+            padding: 10px 25px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 25px;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        .app-card:hover .view-button {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .app-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .card-content {
+                min-height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>2024年度总结导航</h1>
+            <p class="subtitle">点击卡片，查看你的2024故事</p>
+        </header>
+        
+        <div class="app-grid">
+            
+            <a href="https://xhslink.com/DEx6p2?fullscreen=true&page_instance=3915&instance_id=report2024&xhsshare=CopyLink&appuid=5e18d49900000000010073f5&apptime=1735209477&share_id=72647058e6bd45919cba157987b7b2f6" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #FE2C55;">
+                    <img src="icons/xiaohongshu.png" alt="小红书" class="app-icon">
+                    <h2 class="app-name">小红书</h2>
+                    <p class="app-description">2024值得奖奖</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+            <a href="http://163cn.tv/Ah1nBh9" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #D33A31;">
+                    <img src="icons/netease.png" alt="网易云音乐" class="app-icon">
+                    <h2 class="app-name">网易云音乐</h2>
+                    <p class="app-description">2024网易云音乐年度记忆</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+        
+            <a href="https://defdo1.yyeqokcho.com/f/X-8D0NioUFR0Estb " class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #ff4907;">
+                    <img src="icons/kuaishou.png" alt="快手" class="app-icon">
+                    <h2 class="app-name">快手</h2>
+                    <p class="app-description">我的2024年度回忆</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+            <a href="http://yeafd.anitama.cn/blackboard/redpack/tm2024-entry.html?navhide=1&auto_media_playback=1&topshare=true&msource=copy" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #FB7299;">
+                    <img src="icons/bilibili.png" alt="B站" class="app-icon">
+                    <h2 class="app-name">B站</h2>
+                    <p class="app-description">2024用户年报</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+            <a href="https://www.douyin.com/review2023" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #000000;">
+                    <img src="icons/douyin.png" alt="抖音" class="app-icon">
+                    <h2 class="app-name">抖音</h2>
+                    <p class="app-description">查看你的精彩时刻</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+        
+
+            <a href="https://weread.qq.com/misc-next/wrapped-2024?isAnimateNavBarBackground=1&isShowNavBarShadow=0&source=from_wechat" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #6BA6EC;">
+                    <img src="icons/weread.png" alt="微信读书" class="app-icon">
+                    <h2 class="app-name">微信读书</h2>
+                    <p class="app-description">2024，在这些书里看见世界</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+            <a href="https://c6.y.qq.com/base/fcgi-bin/u?__=yRzufjFgBRZD" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #ffdc00;">
+                    <img src="icons/qqmusic.png" alt="QQ音乐" class="app-icon">
+                    <h2 class="app-name">QQ音乐</h2>
+                    <p class="app-description">2024 QQ音乐年度听歌报告</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+            <a href="https://ti.qq.com/public-template/index.html?from=2&project=ti.qq.com_year-end-review2024&_wwv=8192&_wv=16777216&_bid=5971&page=index" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #0099ff;">
+                    <img src="icons/qq.png" alt="QQ" class="app-icon">
+                    <h2 class="app-name">QQ</h2>
+                    <p class="app-description">QQ2024年度报告大会</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+            <a href="https://www.zhihu.com/parker/campaign/1852361101330743296?t=1735209671725&utm_campaign=zhihumarket&utm_medium=social&utm_source=wechat&utm_content=moments_share" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #0e88eb;">
+                    <img src="icons/zhihu.png" alt="知乎" class="app-icon">
+                    <h2 class="app-name">知乎</h2>
+                    <p class="app-description">我的2024支点</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+            
+
+            <a href="https://huodong.weibo.cn/memory2024/h5_memories?sinainternalbrowser=topnav&share_menu=1&topnavstyle=1&portrait_only=1&bconf=3&disable_sinaurl=1&from=10EC293010&wm=3333_2001&ip=10.85.93.22&weiboauthoruid=1625646585" class="app-card" target="_blank">
+                <div class="card-content" style="background-color: #ffd43f;">
+                    <img src="icons/weibo.png" alt="微博" class="app-icon">
+                    <h2 class="app-name">微博</h2>
+                    <p class="app-description">2024我的微博播报</p>
+                    <span class="view-button">查看总结</span>
+                </div>
+            </a>
+
+        </div>
+
+        <footer class="footer">
+            <p>© 2024 年度总结导航 | 点亮你的2024精彩回忆</p>
+        </footer>
+    </div>
+</body>
+</html> 
